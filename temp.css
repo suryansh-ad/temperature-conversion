@@ -1,0 +1,69 @@
+*{
+    margin: 0;padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+#input{
+    font-weight: 500;
+    background-color: #00ffbb;
+    
+
+}
+
+#big{
+    z-index: 0;
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    text-align: center;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);  
+    background-size: 100% 100%;
+}
+h1{
+    color: rgb(0, 0, 255);
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+label {
+    color:  rgb(68, 0, 255);
+}
+#container{
+    z-index: 1;
+    height: 80vh;
+    background: rgb(28, 25, 41); 
+    width: 40vw;
+    transform: translate(70%,10%);
+}
+#alert{
+    color:  rgb(0, 42, 255);
+    display: inline;
+}
+
+h3{
+    display : inline-block;
+    color:  rgb(0, 0, 255);
+}
+#display{
+    font-weight: 400;
+    font-size: 5rem;
+    color: cyan;
+    font-family: "Bebas Neue";
+}
+#button {
+    background-color: #0d00ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8%;
+    transition: 0.2s;
+  }
+  #button:hover{
+    padding: 20px 40px;
+  }
